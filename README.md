@@ -39,6 +39,30 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   <img src="https://i.imgur.com/CS3uiRi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br>
   <b>STEP 1D:</b> Retrieve the private IP address of the Ubuntu VM and attempt to ping it from within the Windows 10 VM then observe ping requests and replies within     WireShark
+  <br>
+  <b>STEP 1E:</b> From The Windows 10 VM, open command line or PowerShell and attempt to ping a public website (such as www.google.com) and observe the traffic in       WireShark
+  <br>
+  <b>STEP 1F:</b> Initiate a perpetual/non-stop ping with the -t command from your Windows 10 VM to your Ubuntu VM 
+  <br>
+  <br>
+  <img src="https://i.imgur.com/AQKRKok.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br>
+  <b>STEP 1G:</b> Open the Network Security Group your Ubuntu VM is using and disable incoming (inbound) ICMP traffic
+  <br>
+  <br>
+  <img src="https://i.imgur.com/m2lVkVt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br>
+  <b>STEP 1H:</b> Back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity
+  <br>
+  <b>STEP 1I:</b> Re-enable ICMP traffic for the Network Security Group your Ubuntu VM is using
+  <br>
+  <br>
+  <img src="https://i.imgur.com/QLmihDq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br>
+  <b>STEP 1J:</b> Back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity (should start working)
+  <br>
+  <b>STEP 1K:</b> Stop the ping activity (control c)
+
 </p>
 <br />
 
