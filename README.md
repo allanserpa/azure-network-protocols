@@ -62,15 +62,18 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   <b>STEP 1J:</b> Back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity (should start working)
   <br>
   <b>STEP 1K:</b> Stop the ping activity (control c)
-
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  <b>STEP 2A:</b> Back in Wireshark, filter for SSH traffic only
+  <br>
+  <br>
+  <img src="https://i.imgur.com/98yvcaq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br>
+  <b>STEP 2B:</b> From your Windows 10 VM, “SSH into” your Ubuntu Virtual Machine (via its private IP address) and type commands (username, pwd, etc) into the linux     SSH connection and observe SSH traffic spam in WireShark
+  <br>
+  <b>STEP 2C:</b> Exit the SSH connection by typing ‘exit’ and pressing [Enter]
 </p>
 <br />
 
