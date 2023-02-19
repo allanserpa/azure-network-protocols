@@ -86,3 +86,14 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   <b>STEP 3B:</b> From your Windows 10 VM, attempt to issue your VM a new IP address from the command line (ipconfig /renew) and observe the DHCP traffic appearing in   WireShark
 </p>
 <br />
+
+<p>
+  <b>STEP 4A:</b> Back in Wireshark, filter for DNS traffic only
+  <br>
+  <br>
+  <img src="https://i.imgur.com/b8C5WxI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br>
+  <b>STEP 4B:</b> From your Windows 10 VM within a command line, use nslookup to see what google.com's IP addresses are and observe the DNS traffic being show in WireShark
+</p>
+<br />
+
