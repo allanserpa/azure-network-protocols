@@ -97,3 +97,11 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>
 <br />
 
+<p>
+  <img src="https://i.imgur.com/TYJqLn2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br>
+  <b>STEP 5:</b> Back in Wireshark, filter for RDP traffic only and observe the immediate non-stop spam of traffic
+</p>
+<br />
+
+
